@@ -9,12 +9,13 @@ function createWindow() {
         height: 600,
         minWidth: 600,
         minHeight: 400,
+        icon: path.join(app.getAppPath(), 'build/icon.png'),
         webPreferences: {
-            preload: path.join(__dirname,'preload.js')
+            preload: path.join(app.getAppPath(),'preload.js')
         }
     });
 
-    win.loadFile(path.join(__dirname,'src/index.html'));
+    win.loadFile(path.join(app.getAppPath(),'src/index.html'));
     win.setMenu(null)
     //win.webContents.openDevTools();
     win.webContents.on('will-navigate', function(event, url){
@@ -22,6 +23,9 @@ function createWindow() {
         shell.openExternal(url);
     });
 }
+
+
+if(require('electron-squirrel-startup')) return app.quit();
 
 app.whenReady().then(createWindow);
 

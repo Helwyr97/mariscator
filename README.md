@@ -1,2 +1,2 @@
 # Mariscator
-Aplication to compare shellfish prices from the O Grove companies
+Appto compare shellfish prices from the O Grove's companies
