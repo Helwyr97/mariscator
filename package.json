@@ -1,0 +1,28 @@
+{
+  "name": "shellfish",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Helwyr97/shellfish.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Helwyr97/shellfish/issues"
+  },
+  "homepage": "https://github.com/Helwyr97/shellfish#readme",
+  "devDependencies": {
+    "electron": "^11.2.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "axios": "^0.21.1",
+    "scrape-it": "^5.3.1"
+  }
+}
