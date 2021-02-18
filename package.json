@@ -1,5 +1,5 @@
 {
-  "name": "shellfish",
+  "name": "mariscator",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -8,21 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Helwyr97/shellfish.git"
+    "url": "git+https://github.com/Helwyr97/mariscator.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Helwyr97/shellfish/issues"
+    "url": "https://github.com/Helwyr97/mariscator/issues"
   },
-  "homepage": "https://github.com/Helwyr97/shellfish#readme",
+  "homepage": "https://github.com/Helwyr97/mariscator#readme",
   "devDependencies": {
     "electron": "^11.2.3"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
-    "axios": "^0.21.1",
-    "scrape-it": "^5.3.1"
+    "axios": "^0.21.1"
   }
 }
